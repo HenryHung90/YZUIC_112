@@ -1,0 +1,29 @@
+{
+  "name": "yzuic_112",
+  "version": "1.0.0",
+  "description": "Desgin for yzuic twenty-six graduation website",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenryHung90/YZUIC_112.git"
+  },
+  "author": "YZUIC 112",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HenryHung90/YZUIC_112/issues"
+  },
+  "homepage": "https://github.com/HenryHung90/YZUIC_112#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
