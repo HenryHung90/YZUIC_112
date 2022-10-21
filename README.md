@@ -1,6 +1,4 @@
-# YZUIC_112
-
-# Title:YZUIC_112 Graduation Exhibition Website
+## Title:YZUIC_112 Graduation Exhibition Website
 
 
 # how to work it?
