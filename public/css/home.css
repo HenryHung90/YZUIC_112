@@ -2,6 +2,45 @@
     background-color: blanchedalmond;
 } */
 
+h1{
+    margin: 80px 0;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+p{
+    font-size: 18px;
+}
+
 .nav-link{
     margin: 40px 60px;
+    font-size: 20px;
+}
+.navbar-brand{
+    margin: 0 40px;
+}
+
+.home_KeyVision{
+    background-color: bisque;
+    height: 520px;
+}
+
+.home_intro{
+    background-color: rgb(202, 254, 234);
+    height: 520px;
+}
+.home_intro p{
+    margin: 80px 200px;
+    border: 2px solid black;
+    text-align: center;
+}
+/* .home_intro p{
+    font-size: 20px;
+} */
+.home_works{
+    background-color: rgb(0, 140, 255);
+}
+.home_work{
+    height: 300px;
+    background-color: rgb(124, 196, 255);
+    border: 2px solid black;
 }
