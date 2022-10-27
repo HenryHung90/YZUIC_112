@@ -1,3 +1,16 @@
+/*--------- 大標題 ----------*/
+
+h1{
+    margin: 80px 0;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+p{
+    font-size: 18px;
+}
+
+/*--------- navbar ----------*/
+
 .nav-link{
     margin: 40px 60px;
     font-size: 20px;
@@ -8,6 +21,16 @@
     width: 80px;
     border: 2px solid black;
 } 
+
+/*----- 首頁：主視覺、關於我們：畢籌會大合照 -----*/
+
+.banner{
+    background-color: bisque;
+    height: 520px;
+}
+
+/*----------- footer ------------*/
+
 .footer .col{
     /* border: 2px solid black; */
     /* display: flex; */

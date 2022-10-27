@@ -1,21 +1,6 @@
 /* .container{
     background-color: blanchedalmond;
 } */
-
-h1{
-    margin: 80px 0;
-    /* border: 2px solid black; */
-    text-align: center;
-}
-p{
-    font-size: 18px;
-}
-
-.home_KeyVision{
-    background-color: bisque;
-    height: 520px;
-}
-
 .home_intro{
     background-color: rgb(202, 254, 234);
     height: 520px;
