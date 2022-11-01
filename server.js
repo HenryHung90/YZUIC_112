@@ -31,6 +31,10 @@ app.get('/about', async (req, res) => {
 app.get('/news', async (req, res) => {
     res.render('./news')
 })
+//活動快訊
+app.get('/activity', async (req, res) => {
+    res.render('./activity')
+})
 
 //展覽作品首頁
 app.get('/portfolio', async (req, res) => {
