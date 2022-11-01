@@ -10,15 +10,3 @@
     border: 2px solid black;
     text-align: center;
 }
-/* .home_intro p{
-    font-size: 20px;
-} */
-.home_works{
-    /* background-color: rgb(0, 140, 255); */
-}
-.home_work{
-    width: 25%;
-    height: 300px;
-    /* background-color: rgb(124, 196, 255); */
-    border: 2px solid black;
-}
