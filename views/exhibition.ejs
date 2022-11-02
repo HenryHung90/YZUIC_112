@@ -1,117 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>展場資訊</title>
     <!-- bootstrap必要引入文件 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-        crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- jquery必要引入文件（可用可不用） -->
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
-        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/exhibition.css">
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/exhibition.css" />
     <!-- 每個連結通用 -->
-    <link rel="stylesheet" href="../css/nav.css">
-</head>
+    <link rel="stylesheet" href="../css/nav.css" />
+  </head>
 
-<body>
-    展場資訊
-
+  <body>
     <!-- navbar -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/">
-                <img src="" alt="" srcset="">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="exhibition">展覽資訊</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            展覽作品
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="portfolio/gaming">遊戲</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="portfolio/interaction">互動</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="portfolio/film">動畫影視</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="portfolio/marketing">行銷</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            公告
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="news">一般消息</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="activity">活動快訊</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about">關於我們</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img src="" alt="" srcset="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="exhibition"
+                >展覽資訊</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                展覽作品
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="portfolio/gaming">遊戲</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="portfolio/interaction">互動</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="portfolio/film">動畫影視</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="portfolio/marketing">行銷</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                公告
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="news">一般消息</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="activity">活動快訊</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about">關於我們</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-    <!-- footer -->
-
-    <hr>
+    <hr />
 
     <div class="container">
-        <div class="row footer">
-            <div class="col">
-                <p>
-                    指導單位：<br>元智大學資訊學院
-                <p>
-            </div>
-            <div class="col">
-                <p>
-                    主辦單位：<br>元智大學資訊傳播學系
-                <p>
-                
-            </div>
-            <div class="col">
-                <p>
-                    執行單位：<br>
-                    元智大學資訊傳播學系<br>
-                    第二十六屆畢業展覽籌備會
-                </p>
-                
-            </div>
-            
+      <div class="row justify-content-center">
+        <div class="col-md"><h1>展區導覽圖</h1></div>
+        <div class="col-md-12">
+          <img
+            src="https://jatraveling.tw/wp-content/uploads/2018/08/1533283504-799bad5a3b514f096e69bbc4a7896cd9.jpg"
+            class="img-fluid"
+            alt="..."
+          />
         </div>
-    </div>
-</body>
-<script src="../js/exhibition.js"></script>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-12">
+          <h1>交通資訊</h1>
+        </div>
+        <div class="col-8">
+          <p>
+            松山文創園區地址：11072臺北市信義區光復南路133號<br />
+            ◎捷運<br />
+            搭乘捷運板南線（藍）至捷運市政府站１號出口，步行約400公尺<br />
+            搭乘捷運板南線（藍）至捷運市政府站２號出口，步行約400公尺<br />
+            搭乘捷運板南線（藍）至捷運國父紀念館站５號出口，步行約500公尺<br />
+            ◎自行開車<br />
+            園區內無設有停車場，停車請至松山高中或市府轉運站，更多停車資訊可至以下網頁查詢：http://www.tpis.nat.gov.tw/
+          </p>
+        </div>
+        <div class="col-4">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6079.2023127538305!2d121.56096415201237!3d25.04373331772975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abb5f15f40c3%3A0x94694552be3aa6c0!2z5Y2X5ZCR6KO96I-45bel5aC0!5e0!3m2!1szh-TW!2stw!4v1667366172066!5m2!1szh-TW!2stw"
+            width="300"
+            height="250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <h1>注意事項</h1>
+        </div>
+        <div class="col-5">
+          <p>
+            1.請勿穿著短褲 洪立桓在你後面看著你<br />
+            2.加我IG:sam90315
+          </p>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="row">
+        <div class="col">
+          <p>指導單位：<br />元智大學資訊學院</p>
 
+          <p></p>
+        </div>
+
+        <div class="col">
+          <p>主辦單位：<br />元智大學資訊傳播學系</p>
+
+          <p></p>
+        </div>
+
+        <div class="col">
+          <p>
+            執行單位：<br />
+            元智大學資訊傳播學系<br />
+            第二十六屆畢業展覽籌備會
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../js/exhibition.js"></script>
 </html>
