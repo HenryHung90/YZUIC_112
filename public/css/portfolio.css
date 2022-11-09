@@ -15,3 +15,13 @@
 .card-title{
     margin: 40px 0 40px;
 }
+.carousel-inner{
+    height: 600px;
+}
+.btn_back{
+    margin: 40px 0 40px;
+    border: 0;
+}
+/* .works_text{
+    justify-content: center;
+} */
