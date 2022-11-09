@@ -1,3 +1,17 @@
-h1{
-    margin: 80px 0;
+.card{
+    padding: 40px;
+    height: 520px;
+    /* 垂直置中 */
+    justify-content: center;    
+  
+}
+.card-title, .card-text{
+    margin: 0px;
+}
+
+.card-text{
+    margin: 0 0 10px;
+}
+.card-title{
+    margin: 40px 0 40px;
 }
