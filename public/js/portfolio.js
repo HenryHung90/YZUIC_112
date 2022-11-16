@@ -11,7 +11,7 @@ var works=[
         "我們的遊戲特色為結合聊齋誌異故事與中國古風元素的劇情體驗、"+
         "具有日式漫畫感的美術視覺、"+
         "富有巧思且難易適中的機關設計，讓玩家享受破關的成就感。",
-        pic:""
+        pic: ["../media/game/game1_1.jpg","../media/game/game1_2.jpg","../media/game/game1_3.jpg"]
     },
     {
         title: "血墨契約",
@@ -22,8 +22,8 @@ var works=[
         "血墨契約介紹內文血墨契約介紹內文血墨契約介紹內文，"+
         "血墨契約介紹內文血墨契約介紹內文血墨契約介紹內文，"+
         "血墨契約介紹內文血墨契約介紹內文血墨契約介紹內文，"+
-        "血墨契約介紹內文血墨契約介紹內文血墨契約介紹內文。"
-        
+        "血墨契約介紹內文血墨契約介紹內文血墨契約介紹內文。",
+        pic: ["../media/game/game2_1.jpg","../media/game/game2_2.jpg","../media/game/game2_3.jpg"]
     },
     {
         title: "Raise",
@@ -34,7 +34,8 @@ var works=[
         "Raise介紹內文Raise介紹內文Raise介紹內文Raise介紹內文，"+
         "Raise介紹內文Raise介紹內文Raise介紹內文，"+
         "Raise介紹內文Raise介紹內文Raise介紹內文Raise介紹內文，"+
-        "Raise介紹內文Raise介紹內文Raise介紹內文。"
+        "Raise介紹內文Raise介紹內文Raise介紹內文。",
+        pic: ["../media/game/game3_1.jpg","../media/game/game3_2.jpg","../media/game/game3_3.jpg"]
     }
 ]
 
@@ -71,6 +72,9 @@ $(document).ready(function () {
         }
         $(".content_member").text(m);
 
+        $(".c1 img").attr("src", works[id].pic[0]);
+        $(".c2 img").attr("src", works[id].pic[1]);
+        $(".c3 img").attr("src", works[id].pic[2]);
     });
     $(".btn_back").click(function () {
         // console.log(1);
