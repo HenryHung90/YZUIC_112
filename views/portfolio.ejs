@@ -16,13 +16,125 @@
     <!-- jquery必要引入文件（可用可不用） -->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="stylesheet" href="../css/tv.css">
     <!-- 每個連結通用 -->
     <link rel="stylesheet" href="../css/nav.css">
 </head>
 
 <body>
-    展場作品
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img src="" alt="" srcset="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            展覽資訊
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="exhibition">實體展覽</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="portfolio">影展</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="">線上集章</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            展覽作品
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="portfolio/gaming">遊戲</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="portfolio/interaction">互動</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="portfolio/film">動畫影視</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="portfolio/marketing">行銷</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            公告
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="news">一般消息</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="activity">活動快訊</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about">關於我們</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- 影展宣傳片 -->
+
+    <div class="container">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/Iv7juZvsYsE" title="【PAINTNIC】預告02｜元智大學資傳系第25屆畢業展" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+            </iframe>
+        </div>     
+        
+    </div>
+
+    <!-- footer -->
+
+    <hr>
+
+    <div class="container">
+        <div class="row footer">
+            <div class="col">
+                <p>
+                    指導單位：<br>元智大學資訊學院
+                <p>
+            </div>
+            <div class="col">
+                <p>
+                    主辦單位：<br>元智大學資訊傳播學系
+                <p>
+
+            </div>
+            <div class="col">
+                <p>
+                    執行單位：<br>
+                    元智大學資訊傳播學系<br>
+                    第二十六屆畢業展覽籌備會
+                </p>
+
+            </div>
+
+        </div>
+    </div>    
 </body>
 <script src="../js/portfolio.js"></script>
 
