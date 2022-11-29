@@ -1,12 +1,32 @@
-/*--------- 大標題 ----------*/
+/*--------- 統一字體與間距 ----------*/
 
-h1{
-    /* margin: 80px 0; */
-    /* border: 2px solid black; */
+/* 最大標題 */
+.header1{
+    margin: 80px 0 40px;
+    font-size: 64px;
+}
+/* 主標題 */
+.header2{
+    /* text-align: center; */
+    font-size: 48px;
+    margin: 80px 0 40px;
+}
+
+/* 內文 */
+.text1{
+    font-size: 24px;
+    margin: 0 0 80px;
+}
+.text1_2{
+    font-size: 24px;
+    margin: 0 0 40px;
+}
+.text1_3{
+    font-size: 24px;
     /* text-align: center; */
 }
-p{
-    font-size: 18px;
+.text2{
+    font-size: 16px;
 }
 
 /*--------- navbar ----------*/
@@ -22,7 +42,7 @@ p{
     border: 2px solid black;
 } 
 
-/*----- 首頁：主視覺、關於我們：畢籌會大合照 -----*/
+/*----- 首頁：主視覺：畢籌會大合照 -----*/
 
 .banner{
     background-color: bisque;
