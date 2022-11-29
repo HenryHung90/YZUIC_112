@@ -36,7 +36,7 @@ app.get('/activity', async (req, res) => {
     res.render('./activity')
 })
 
-//展覽作品首頁
+//影展
 app.get('/portfolio', async (req, res) => {
     res.render('./portfolio')
 })
