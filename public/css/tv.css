@@ -1,7 +1,7 @@
 .card{
-    padding: 80px 40px;
+    /* padding: 80px 40px; */
     /* 垂直置中 */
-    justify-content: center;   
+    /* justify-content: center;    */
   
 }
 .card-title, .card-text{

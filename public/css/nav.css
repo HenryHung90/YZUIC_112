@@ -1,15 +1,24 @@
+/*----------- 這裡是放統一的樣式 -------------*/
+
+/* 統一container上下間距 */
+.margin_y{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
 /*--------- 統一字體與間距 ----------*/
 
 /* 最大標題 */
 .header1{
-    margin: 80px 0 40px;
+    margin: 0 0 40px;
     font-size: 64px;
 }
-/* 主標題 */
+/* 一般標題 */
 .header2{
     /* text-align: center; */
     font-size: 48px;
-    margin: 80px 0 40px;
+    margin: 0 0 40px;
 }
 
 /* 內文 */
@@ -23,7 +32,6 @@
 }
 .text1_3{
     font-size: 24px;
-    /* text-align: center; */
 }
 .text2{
     font-size: 16px;
@@ -42,7 +50,7 @@
     border: 2px solid black;
 } 
 
-/*----- 首頁：主視覺：畢籌會大合照 -----*/
+/*----- 首頁：主視覺；關於我們：畢籌會大合照 -----*/
 
 .banner{
     background-color: bisque;
@@ -50,14 +58,3 @@
 }
 
 /*----------- footer ------------*/
-
-.footer .col{
-    /* border: 2px solid black; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* text-align: center; */
-    padding: 80px 5%;
-}
-.footer .col p{
-    /* text-align: center; */
-}
