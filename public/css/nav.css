@@ -5,6 +5,9 @@
     margin-top: 80px;
     margin-bottom: 80px;
 }
+.padding_y_40{
+    padding: 40px 0;
+}
 
 
 /*--------- 統一字體與間距 ----------*/
@@ -18,10 +21,14 @@
 .header2{
     /* text-align: center; */
     font-size: 48px;
-    margin: 0 0 40px;
+    margin: 0 0 80px;
+}
+.header3{
+    font-size: 36px;
+    margin-bottom: 40px;
 }
 
-/* 內文 */
+/* 內文1 */
 .text1{
     font-size: 24px;
     margin: 0 0 80px;
@@ -33,6 +40,7 @@
 .text1_3{
     font-size: 24px;
 }
+/* 內文2 */
 .text2{
     font-size: 16px;
 }
