@@ -27,7 +27,7 @@ $(document).ready(function () {
         var h = $(this).parent().parent().find(".card-header").text();
         console.log(h);
         for (let i = 0; i < data.length; i++) {
-            console.log(data[i].header);
+            // console.log(data[i].header);
             if (data[i].header == h){
                 
                 $(".modal-title").text(data[i].header);
