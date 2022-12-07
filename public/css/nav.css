@@ -71,8 +71,13 @@
 /*----- 首頁：主視覺；關於我們：畢籌會大合照 -----*/
 
 .banner{
-    background-color: bisque;
-    height: 520px;
+    /* background-image: url("../media/banner/about.jpg");
+    background-size: cover;*/
+    width: 100%;
+    object-fit: cover;
+    border: solid 2px;
+    /* height: 600px;*/
+     
 }
 
 /*----------- footer ------------*/

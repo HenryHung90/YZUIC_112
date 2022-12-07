@@ -7,3 +7,9 @@
     margin: 0 auto;
     /*  */
 }
+.card img{
+    border-radius: 50%;
+}
+.sponsor{
+    border: 0;
+}
