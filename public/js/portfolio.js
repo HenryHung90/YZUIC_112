@@ -1,6 +1,6 @@
 var works=[
     {
-        title: "降妖錄",
+        title: "古嶺奇譚",
         teams:"無為工作室",
         member:['白紀葳','彭奕綾','蔡易辰','江若仙','張舒涵','裴氏瓊如'],
         text:
@@ -47,12 +47,15 @@ $(document).ready(function () {
         $(".works_content").show();
         $(".works").hide();
 
+        // 把container的外距效果移除
+        $(".container_content").removeClass("margin_y")
+
         //儲存選擇的作品名稱
         var name = $(this).parent().find(".card-title").text();
         var id = 0;
         var m = ""
         // 判斷選擇的作品名稱
-        if (name=="降妖錄"){
+        if (name=="古嶺奇譚"){
             id = 0;
         }else if(name=="血墨契約"){
             id = 1;
@@ -78,7 +81,8 @@ $(document).ready(function () {
     });
     $(".btn_back").click(function () {
         // console.log(1);
-
+        // 把container的外距效果加入
+        $(".container").addClass("margin_y")
         //切換頁面
         $(".works_content").hide();
         $(".works").show();

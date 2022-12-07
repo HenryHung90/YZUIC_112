@@ -28,7 +28,8 @@
     margin-bottom: 40px;
 }
 
-/* 內文1 */
+/* 文字大小 */
+/* 24px */
 .text1{
     font-size: 24px;
     margin: 0 0 80px;
@@ -40,15 +41,19 @@
 .text1_3{
     font-size: 24px;
 }
-/* 內文2 */
+/* 16px */
 .text2{
     font-size: 16px;
 }
-/*  */
+/* 20px */
 .text3{
     font-size: 20px;
     margin-bottom: 40px;
 }
+.text3_2{
+    font-size: 20px;
+}
+
 
 /*--------- navbar ----------*/
 

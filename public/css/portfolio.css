@@ -9,38 +9,37 @@
     margin: 0px;
 }
 
+/* 響應式圖文位置 */
+
 @media screen and (max-width:768px) {
     .col-md-6{
         text-align: center;
     }
 }
 @media screen and (min-width:768px) {
-    .card_content{
+    .card_contentR{
         text-align: right;
     }
+    /* .card_imgL{
+        text-align: left;
+    } */
 }
 
-.card-text{
-    /* margin: 0 0 10px; */
-}
-.card-title{
-    /* margin: 40px 0 40px; */
-}
-
-
-.carousel-inner{
-    height: 600px;
-}
-
+/* 回上一頁 */
 
 .btn_back{
-    margin: 40px 0 40px;
+    margin: 40px 0;
     border: 0;
 }
+
+/* 了解詳情內文隱藏 */
 
 .works_content{
     display: none;
 }
-/* .works_text{
+
+.txt_center{
+    display: flex;
     justify-content: center;
-} */
+    align-items: center;
+}
