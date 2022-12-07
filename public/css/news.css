@@ -1,0 +1,16 @@
+.btn{
+    width: 200px;
+    height: 60px;   
+    /* 垂直置中 */
+    align-items: center;
+    /* background-color: aliceblue;
+    color: black; */
+}
+
+.card{
+    margin-bottom: 40px;
+}
+
+.card:hover{
+    cursor: pointer;
+}

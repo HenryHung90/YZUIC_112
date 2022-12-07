@@ -23,8 +23,8 @@ var data = [
 
 $(document).ready(function () {
 
-    $(".card-body button").click(function () {
-        var h = $(this).parent().parent().find(".card-header").text();
+    $(".card").click(function () {
+        var h = $(this).find(".card-header").text();
         console.log(h);
         for (let i = 0; i < data.length; i++) {
             // console.log(data[i].header);
